@@ -7,14 +7,18 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
-        <form class="well span6">
-            <label>Username</label>
-            <input type="text" class="span3" placeholder="username"/><br/>
-            <label>Password</label>
-            <input type="text" class="span3" placeholder="password"/><br/> 
-            <button class="btn btn-primary">Submit</button>
-            <button class="btn">Clear</button>
+        <!-- search form example -->
+        <form class="well form-search">
+            <input type="text" class="span3 search-query" placeholder="Search"/>
+            <button class="btn">Search</button>
         </form>
+
+        <!-- Inline form example -->
+        <form class="well form-inline">
+            <input type="text" class="span3" placeholder="Username"/>
+            <input type="text" class="span3" placeholder="Password"/>
+            <button class="btn btn-primary">Login</button>
+        <form>
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
